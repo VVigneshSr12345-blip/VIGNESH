@@ -1,0 +1,1570 @@
+13.3s 1 /kaggle/input/telecom-churn-case-study-hackathon-c-66/data_dictionary.csv
+13.3s 2 /kaggle/input/telecom-churn-case-study-hackathon-c-66/sample.csv
+13.3s 3 /kaggle/input/telecom-churn-case-study-hackathon-c-66/starter-notebook - Labs 1.ipynb
+13.3s 4 /kaggle/input/telecom-churn-case-study-hackathon-c-66/train.csv
+13.3s 5 /kaggle/input/telecom-churn-case-study-hackathon-c-66/test.csv
+16.2s 6 (69999, 172)
+16.2s 7 (30000, 171)
+16.2s 8 (30000, 2)
+16.2s 9 (36, 2)
+16.7s 10 <class 'pandas.core.frame.DataFrame'>
+16.7s 11 RangeIndex: 69999 entries, 0 to 69998
+16.7s 12 Data columns (total 172 columns):
+16.7s 13 #    Column                    Dtype
+16.7s 14 ---   ------                    -----
+16.7s 15 0    id                        int64
+16.7s 16 1    circle_id                 int64
+16.7s 17 2    loc_og_t2o_mou            float64
+16.7s 18 3    std_og_t2o_mou            float64
+16.7s 19 4    loc_ic_t2o_mou            float64
+16.7s 20 5    last_date_of_month_6      object
+16.7s 21 6    last_date_of_month_7      object
+16.7s 22 7    last_date_of_month_8      object
+16.7s 23 8    arpu_6                    float64
+16.7s 24 9    arpu_7                    float64
+16.7s 25 10   arpu_8                    float64
+16.7s 26 11   onnet_mou_6               float64
+16.7s 27 12   onnet_mou_7               float64
+16.7s 28 13   onnet_mou_8               float64
+16.7s 29 14   offnet_mou_6              float64
+16.7s 30 15   offnet_mou_7              float64
+16.7s 31 16   offnet_mou_8              float64
+16.7s 32 17   roam_ic_mou_6             float64
+16.7s 33 18   roam_ic_mou_7             float64
+16.7s 34 19   roam_ic_mou_8             float64
+16.7s 35 20   roam_og_mou_6             float64
+16.7s 36 21   roam_og_mou_7             float64
+16.7s 37 22   roam_og_mou_8             float64
+16.7s 38 23   loc_og_t2t_mou_6          float64
+16.7s 39 24   loc_og_t2t_mou_7          float64
+16.7s 40 25   loc_og_t2t_mou_8          float64
+16.7s 41 26   loc_og_t2m_mou_6          float64
+16.7s 42 27   loc_og_t2m_mou_7          float64
+16.7s 43 28   loc_og_t2m_mou_8          float64
+16.7s 44 29   loc_og_t2f_mou_6          float64
+16.7s 45 30   loc_og_t2f_mou_7          float64
+16.7s 46 31   loc_og_t2f_mou_8          float64
+16.7s 47 32   loc_og_t2c_mou_6          float64
+16.7s 48 33   loc_og_t2c_mou_7          float64
+16.7s 49 34   loc_og_t2c_mou_8          float64
+16.7s 50 35   loc_og_mou_6              float64
+16.7s 51 36   loc_og_mou_7              float64
+16.7s 52 37   loc_og_mou_8              float64
+16.7s 53 38   std_og_t2t_mou_6          float64
+16.7s 54 39   std_og_t2t_mou_7          float64
+16.7s 55 40   std_og_t2t_mou_8          float64
+16.7s 56 41   std_og_t2m_mou_6          float64
+16.7s 57 42   std_og_t2m_mou_7          float64
+16.7s 58 43   std_og_t2m_mou_8          float64
+16.7s 59 44   std_og_t2f_mou_6          float64
+16.7s 60 45   std_og_t2f_mou_7          float64
+16.7s 61 46   std_og_t2f_mou_8          float64
+16.7s 62 47   std_og_t2c_mou_6          float64
+16.7s 63 48   std_og_t2c_mou_7          float64
+16.7s 64 49   std_og_t2c_mou_8          float64
+16.7s 65 50   std_og_mou_6              float64
+16.7s 66 51   std_og_mou_7              float64
+16.7s 67 52   std_og_mou_8              float64
+16.7s 68 53   isd_og_mou_6              float64
+16.7s 69 54   isd_og_mou_7              float64
+16.7s 70 55   isd_og_mou_8              float64
+16.7s 71 56   spl_og_mou_6              float64
+16.7s 72 57   spl_og_mou_7              float64
+16.7s 73 58   spl_og_mou_8              float64
+16.7s 74 59   og_others_6               float64
+16.7s 75 60   og_others_7               float64
+16.7s 76 61   og_others_8               float64
+16.7s 77 62   total_og_mou_6            float64
+16.7s 78 63   total_og_mou_7            float64
+16.7s 79 64   total_og_mou_8            float64
+16.7s 80 65   loc_ic_t2t_mou_6          float64
+16.7s 81 66   loc_ic_t2t_mou_7          float64
+16.7s 82 67   loc_ic_t2t_mou_8          float64
+16.7s 83 68   loc_ic_t2m_mou_6          float64
+16.7s 84 69   loc_ic_t2m_mou_7          float64
+16.7s 85 70   loc_ic_t2m_mou_8          float64
+16.7s 86 71   loc_ic_t2f_mou_6          float64
+16.7s 87 72   loc_ic_t2f_mou_7          float64
+16.7s 88 73   loc_ic_t2f_mou_8          float64
+16.7s 89 74   loc_ic_mou_6              float64
+16.7s 90 75   loc_ic_mou_7              float64
+16.7s 91 76   loc_ic_mou_8              float64
+16.7s 92 77   std_ic_t2t_mou_6          float64
+16.7s 93 78   std_ic_t2t_mou_7          float64
+16.7s 94 79   std_ic_t2t_mou_8          float64
+16.7s 95 80   std_ic_t2m_mou_6          float64
+16.7s 96 81   std_ic_t2m_mou_7          float64
+16.7s 97 82   std_ic_t2m_mou_8          float64
+16.7s 98 83   std_ic_t2f_mou_6          float64
+16.7s 99 84   std_ic_t2f_mou_7          float64
+16.7s 100 85   std_ic_t2f_mou_8          float64
+16.7s 101 86   std_ic_t2o_mou_6          float64
+16.7s 102 87   std_ic_t2o_mou_7          float64
+16.7s 103 88   std_ic_t2o_mou_8          float64
+16.7s 104 89   std_ic_mou_6              float64
+16.7s 105 90   std_ic_mou_7              float64
+16.7s 106 91   std_ic_mou_8              float64
+16.7s 107 92   total_ic_mou_6            float64
+16.7s 108 93   total_ic_mou_7            float64
+16.7s 109 94   total_ic_mou_8            float64
+16.7s 110 95   spl_ic_mou_6              float64
+16.7s 111 96   spl_ic_mou_7              float64
+16.7s 112 97   spl_ic_mou_8              float64
+16.7s 113 98   isd_ic_mou_6              float64
+16.7s 114 99   isd_ic_mou_7              float64
+16.7s 115 100  isd_ic_mou_8              float64
+16.7s 116 101  ic_others_6               float64
+16.7s 117 102  ic_others_7               float64
+16.7s 118 103  ic_others_8               float64
+16.7s 119 104  total_rech_num_6          int64
+16.7s 120 105  total_rech_num_7          int64
+16.7s 121 106  total_rech_num_8          int64
+16.7s 122 107  total_rech_amt_6          int64
+16.7s 123 108  total_rech_amt_7          int64
+16.7s 124 109  total_rech_amt_8          int64
+16.7s 125 110  max_rech_amt_6            int64
+16.7s 126 111  max_rech_amt_7            int64
+16.7s 127 112  max_rech_amt_8            int64
+16.7s 128 113  date_of_last_rech_6       object
+16.7s 129 114  date_of_last_rech_7       object
+16.7s 130 115  date_of_last_rech_8       object
+16.7s 131 116  last_day_rch_amt_6        int64
+16.7s 132 117  last_day_rch_amt_7        int64
+16.7s 133 118  last_day_rch_amt_8        int64
+16.7s 134 119  date_of_last_rech_data_6  object
+16.7s 135 120  date_of_last_rech_data_7  object
+16.7s 136 121  date_of_last_rech_data_8  object
+16.7s 137 122  total_rech_data_6         float64
+16.7s 138 123  total_rech_data_7         float64
+16.7s 139 124  total_rech_data_8         float64
+16.7s 140 125  max_rech_data_6           float64
+16.7s 141 126  max_rech_data_7           float64
+16.7s 142 127  max_rech_data_8           float64
+16.7s 143 128  count_rech_2g_6           float64
+16.7s 144 129  count_rech_2g_7           float64
+16.7s 145 130  count_rech_2g_8           float64
+16.7s 146 131  count_rech_3g_6           float64
+16.7s 147 132  count_rech_3g_7           float64
+16.7s 148 133  count_rech_3g_8           float64
+16.7s 149 134  av_rech_amt_data_6        float64
+16.7s 150 135  av_rech_amt_data_7        float64
+16.7s 151 136  av_rech_amt_data_8        float64
+16.7s 152 137  vol_2g_mb_6               float64
+16.7s 153 138  vol_2g_mb_7               float64
+16.7s 154 139  vol_2g_mb_8               float64
+16.7s 155 140  vol_3g_mb_6               float64
+16.7s 156 141  vol_3g_mb_7               float64
+16.7s 157 142  vol_3g_mb_8               float64
+16.7s 158 143  arpu_3g_6                 float64
+16.7s 159 144  arpu_3g_7                 float64
+16.7s 160 145  arpu_3g_8                 float64
+16.7s 161 146  arpu_2g_6                 float64
+16.7s 162 147  arpu_2g_7                 float64
+16.7s 163 148  arpu_2g_8                 float64
+16.7s 164 149  night_pck_user_6          float64
+16.7s 165 150  night_pck_user_7          float64
+16.7s 166 151  night_pck_user_8          float64
+16.7s 167 152  monthly_2g_6              int64
+16.7s 168 153  monthly_2g_7              int64
+16.7s 169 154  monthly_2g_8              int64
+16.7s 170 155  sachet_2g_6               int64
+16.7s 171 156  sachet_2g_7               int64
+16.7s 172 157  sachet_2g_8               int64
+16.7s 173 158  monthly_3g_6              int64
+16.7s 174 159  monthly_3g_7              int64
+16.7s 175 160  monthly_3g_8              int64
+16.7s 176 161  sachet_3g_6               int64
+16.7s 177 162  sachet_3g_7               int64
+16.7s 178 163  sachet_3g_8               int64
+16.7s 179 164  fb_user_6                 float64
+16.7s 180 165  fb_user_7                 float64
+16.7s 181 166  fb_user_8                 float64
+16.7s 182 167  aon                       int64
+16.7s 183 168  aug_vbc_3g                float64
+16.7s 184 169  jul_vbc_3g                float64
+16.7s 185 170  jun_vbc_3g                float64
+16.7s 186 171  churn_probability         int64
+16.7s 187 dtypes: float64(135), int64(28), object(9)
+16.7s 188 memory usage: 91.9+ MB
+26.7s 189 --------------------------------------------------
+26.7s 190 Total of missing values:  1835086
+26.7s 191 --------------------------------------------------
+26.7s 192 Percentage of missing values: 15.24%
+26.7s 193 --------------------------------------------------
+26.7s 194 Total    Percent
+26.7s 195 arpu_3g_6                 52431  74.902499
+26.7s 196 count_rech_2g_6           52431  74.902499
+26.7s 197 night_pck_user_6          52431  74.902499
+26.7s 198 arpu_2g_6                 52431  74.902499
+26.7s 199 date_of_last_rech_data_6  52431  74.902499
+26.7s 200 total_rech_data_6         52431  74.902499
+26.7s 201 av_rech_amt_data_6        52431  74.902499
+26.7s 202 max_rech_data_6           52431  74.902499
+26.7s 203 count_rech_3g_6           52431  74.902499
+26.7s 204 fb_user_6                 52431  74.902499
+26.7s 205 night_pck_user_7          52134  74.478207
+26.7s 206 date_of_last_rech_data_7  52134  74.478207
+26.7s 207 total_rech_data_7         52134  74.478207
+26.7s 208 max_rech_data_7           52134  74.478207
+26.7s 209 fb_user_7                 52134  74.478207
+26.7s 210 count_rech_2g_7           52134  74.478207
+26.7s 211 count_rech_3g_7           52134  74.478207
+26.7s 212 arpu_3g_7                 52134  74.478207
+26.7s 213 av_rech_amt_data_7        52134  74.478207
+26.7s 214 arpu_2g_7                 52134  74.478207
+26.7s 215 count_rech_2g_8           51582  73.689624
+26.7s 216 av_rech_amt_data_8        51582  73.689624
+26.7s 217 night_pck_user_8          51582  73.689624
+26.7s 218 max_rech_data_8           51582  73.689624
+26.7s 219 total_rech_data_8         51582  73.689624
+26.7s 220 arpu_2g_8                 51582  73.689624
+26.7s 221 arpu_3g_8                 51582  73.689624
+26.7s 222 date_of_last_rech_data_8  51582  73.689624
+26.7s 223 fb_user_8                 51582  73.689624
+26.7s 224 count_rech_3g_8           51582  73.689624
+26.7s 225 isd_og_mou_8               3703   5.290076
+26.7s 226 std_ic_t2o_mou_8           3703   5.290076
+26.7s 227 std_og_t2c_mou_8           3703   5.290076
+26.7s 228 std_ic_t2f_mou_8           3703   5.290076
+26.7s 229 std_og_mou_8               3703   5.290076
+26.7s 230 std_ic_t2m_mou_8           3703   5.290076
+26.7s 231 std_ic_mou_8               3703   5.290076
+26.7s 232 std_ic_t2t_mou_8           3703   5.290076
+26.7s 233 og_others_8                3703   5.290076
+26.7s 234 spl_og_mou_8               3703   5.290076
+26.7s 235 loc_ic_t2m_mou_8           3703   5.290076
+26.7s 236 loc_ic_mou_8               3703   5.290076
+26.7s 237 loc_ic_t2f_mou_8           3703   5.290076
+26.7s 238 std_og_t2f_mou_8           3703   5.290076
+26.7s 239 loc_og_t2c_mou_8           3703   5.290076
+26.7s 240 ic_others_8                3703   5.290076
+26.7s 241 loc_og_mou_8               3703   5.290076
+26.7s 242 onnet_mou_8                3703   5.290076
+26.7s 243 offnet_mou_8               3703   5.290076
+26.7s 244 roam_ic_mou_8              3703   5.290076
+26.7s 245 roam_og_mou_8              3703   5.290076
+26.7s 246 loc_og_t2t_mou_8           3703   5.290076
+26.7s 247 loc_og_t2m_mou_8           3703   5.290076
+26.7s 248 loc_og_t2f_mou_8           3703   5.290076
+26.7s 249 std_og_t2m_mou_8           3703   5.290076
+26.7s 250 loc_ic_t2t_mou_8           3703   5.290076
+26.7s 251 isd_ic_mou_8               3703   5.290076
+26.7s 252 std_og_t2t_mou_8           3703   5.290076
+26.7s 253 spl_ic_mou_8               3703   5.290076
+26.7s 254 std_ic_t2m_mou_6           2768   3.954342
+26.7s 255 std_ic_t2t_mou_6           2768   3.954342
+26.7s 256 loc_ic_t2m_mou_6           2768   3.954342
+26.7s 257 ic_others_6                2768   3.954342
+26.7s 258 loc_ic_mou_6               2768   3.954342
+26.7s 259 std_ic_t2f_mou_6           2768   3.954342
+26.7s 260 isd_ic_mou_6               2768   3.954342
+26.7s 261 std_ic_mou_6               2768   3.954342
+26.7s 262 spl_ic_mou_6               2768   3.954342
+26.7s 263 std_ic_t2o_mou_6           2768   3.954342
+26.7s 264 loc_ic_t2f_mou_6           2768   3.954342
+26.7s 265 isd_og_mou_6               2768   3.954342
+26.7s 266 std_og_t2m_mou_6           2768   3.954342
+26.7s 267 std_og_t2f_mou_6           2768   3.954342
+26.7s 268 loc_og_mou_6               2768   3.954342
+26.7s 269 loc_og_t2c_mou_6           2768   3.954342
+26.7s 270 std_og_t2c_mou_6           2768   3.954342
+26.7s 271 loc_og_t2f_mou_6           2768   3.954342
+26.7s 272 loc_og_t2m_mou_6           2768   3.954342
+26.7s 273 std_og_mou_6               2768   3.954342
+26.7s 274 loc_og_t2t_mou_6           2768   3.954342
+26.7s 275 std_og_t2t_mou_6           2768   3.954342
+26.7s 276 loc_ic_t2t_mou_6           2768   3.954342
+26.7s 277 spl_og_mou_6               2768   3.954342
+26.7s 278 onnet_mou_6                2768   3.954342
+26.7s 279 roam_ic_mou_6              2768   3.954342
+26.7s 280 og_others_6                2768   3.954342
+26.7s 281 roam_og_mou_6              2768   3.954342
+26.7s 282 offnet_mou_6               2768   3.954342
+26.7s 283 roam_og_mou_7              2687   3.838626
+26.7s 284 ic_others_7                2687   3.838626
+26.7s 285 loc_og_mou_7               2687   3.838626
+26.7s 286 onnet_mou_7                2687   3.838626
+26.7s 287 loc_ic_t2t_mou_7           2687   3.838626
+26.7s 288 loc_og_t2f_mou_7           2687   3.838626
+26.7s 289 loc_og_t2c_mou_7           2687   3.838626
+26.7s 290 offnet_mou_7               2687   3.838626
+26.7s 291 loc_og_t2m_mou_7           2687   3.838626
+26.7s 292 roam_ic_mou_7              2687   3.838626
+26.7s 293 std_og_t2t_mou_7           2687   3.838626
+26.7s 294 loc_og_t2t_mou_7           2687   3.838626
+26.7s 295 loc_ic_t2m_mou_7           2687   3.838626
+26.7s 296 isd_ic_mou_7               2687   3.838626
+26.7s 297 loc_ic_t2f_mou_7           2687   3.838626
+26.7s 298 loc_ic_mou_7               2687   3.838626
+26.7s 299 spl_og_mou_7               2687   3.838626
+26.7s 300 std_ic_t2t_mou_7           2687   3.838626
+26.7s 301 isd_og_mou_7               2687   3.838626
+26.7s 302 std_ic_t2m_mou_7           2687   3.838626
+26.7s 303 std_og_mou_7               2687   3.838626
+26.7s 304 std_ic_t2f_mou_7           2687   3.838626
+26.7s 305 std_og_t2m_mou_7           2687   3.838626
+26.7s 306 std_ic_t2o_mou_7           2687   3.838626
+26.7s 307 std_og_t2c_mou_7           2687   3.838626
+26.7s 308 std_ic_mou_7               2687   3.838626
+26.7s 309 std_og_t2f_mou_7           2687   3.838626
+26.7s 310 og_others_7                2687   3.838626
+26.7s 311 spl_ic_mou_7               2687   3.838626
+26.7s 312 date_of_last_rech_8        2461   3.515765
+26.7s 313 date_of_last_rech_7        1234   1.762882
+26.7s 314 date_of_last_rech_6        1101   1.572880
+26.7s 315 last_date_of_month_8        733   1.047158
+26.7s 316 loc_ic_t2o_mou              702   1.002871
+26.7s 317 std_og_t2o_mou              702   1.002871
+26.7s 318 loc_og_t2o_mou              702   1.002871
+26.7s 319 last_date_of_month_7        399   0.570008
+26.7s 320 vol_3g_mb_8                   0   0.000000
+26.7s 321 aon                           0   0.000000
+26.7s 322 aug_vbc_3g                    0   0.000000
+26.7s 323 jul_vbc_3g                    0   0.000000
+26.7s 324 jun_vbc_3g                    0   0.000000
+26.7s 325 sachet_3g_8                   0   0.000000
+26.7s 326 sachet_3g_7                   0   0.000000
+26.7s 327 sachet_3g_6                   0   0.000000
+26.7s 328 monthly_2g_6                  0   0.000000
+26.7s 329 monthly_2g_7                  0   0.000000
+26.7s 330 monthly_2g_8                  0   0.000000
+26.7s 331 sachet_2g_6                   0   0.000000
+26.7s 332 sachet_2g_7                   0   0.000000
+26.7s 333 sachet_2g_8                   0   0.000000
+26.7s 334 monthly_3g_8                  0   0.000000
+26.7s 335 monthly_3g_7                  0   0.000000
+26.7s 336 monthly_3g_6                  0   0.000000
+26.7s 337 id                            0   0.000000
+26.7s 338 vol_3g_mb_7                   0   0.000000
+26.7s 339 total_rech_num_7              0   0.000000
+26.7s 340 last_date_of_month_6          0   0.000000
+26.7s 341 arpu_6                        0   0.000000
+26.7s 342 arpu_7                        0   0.000000
+26.7s 343 arpu_8                        0   0.000000
+26.7s 344 total_og_mou_6                0   0.000000
+26.7s 345 total_og_mou_7                0   0.000000
+26.7s 346 total_og_mou_8                0   0.000000
+26.7s 347 circle_id                     0   0.000000
+26.7s 348 total_ic_mou_6                0   0.000000
+26.7s 349 total_ic_mou_7                0   0.000000
+26.7s 350 total_ic_mou_8                0   0.000000
+26.7s 351 total_rech_num_6              0   0.000000
+26.7s 352 total_rech_num_8              0   0.000000
+26.7s 353 vol_3g_mb_6                   0   0.000000
+26.7s 354 total_rech_amt_6              0   0.000000
+26.7s 355 total_rech_amt_7              0   0.000000
+26.7s 356 total_rech_amt_8              0   0.000000
+26.7s 357 max_rech_amt_6                0   0.000000
+26.7s 358 max_rech_amt_7                0   0.000000
+26.7s 359 max_rech_amt_8                0   0.000000
+26.7s 360 last_day_rch_amt_6            0   0.000000
+26.7s 361 last_day_rch_amt_7            0   0.000000
+26.7s 362 last_day_rch_amt_8            0   0.000000
+26.7s 363 vol_2g_mb_6                   0   0.000000
+26.7s 364 vol_2g_mb_7                   0   0.000000
+26.7s 365 vol_2g_mb_8                   0   0.000000
+26.7s 366 churn_probability             0   0.000000
+27.0s 367 ['arpu_3g_6', 'count_rech_2g_6', 'night_pck_user_6', 'arpu_2g_6', 'date_of_last_rech_data_6', 'total_rech_data_6', 'av_rech_amt_data_6', 'max_rech_data_6', 'count_rech_3g_6', 'fb_user_6', 'night_pck_user_7', 'date_of_last_rech_data_7', 'total_rech_data_7', 'max_rech_data_7', 'fb_user_7', 'count_rech_2g_7', 'count_rech_3g_7', 'arpu_3g_7', 'av_rech_amt_data_7', 'arpu_2g_7', 'count_rech_2g_8', 'av_rech_amt_data_8', 'night_pck_user_8', 'max_rech_data_8', 'total_rech_data_8', 'arpu_2g_8', 'arpu_3g_8', 'date_of_last_rech_data_8', 'fb_user_8', 'count_rech_3g_8']
+27.5s 368 ['last_date_of_month_6', 'last_date_of_month_7', 'last_date_of_month_8', 'date_of_last_rech_6', 'date_of_last_rech_7', 'date_of_last_rech_8']
+28.1s 369 ['circle_id', 'loc_og_t2o_mou', 'std_og_t2o_mou', 'loc_ic_t2o_mou', 'std_og_t2c_mou_6', 'std_og_t2c_mou_7', 'std_og_t2c_mou_8', 'std_ic_t2o_mou_6', 'std_ic_t2o_mou_7', 'std_ic_t2o_mou_8']
+28.5s 370 --------------------------------------------------
+28.5s 371 Total of missing values:  247266
+28.5s 372 --------------------------------------------------
+28.5s 373 Percentage of missing values: 2.80%
+28.5s 374 --------------------------------------------------
+28.5s 375 Total   Percent
+28.5s 376 loc_ic_t2f_mou_8     3703  5.290076
+28.5s 377 loc_ic_t2t_mou_8     3703  5.290076
+28.5s 378 loc_og_t2c_mou_8     3703  5.290076
+28.5s 379 loc_og_mou_8         3703  5.290076
+28.5s 380 std_og_t2t_mou_8     3703  5.290076
+28.5s 381 std_og_t2m_mou_8     3703  5.290076
+28.5s 382 std_og_t2f_mou_8     3703  5.290076
+28.5s 383 std_og_mou_8         3703  5.290076
+28.5s 384 isd_og_mou_8         3703  5.290076
+28.5s 385 spl_og_mou_8         3703  5.290076
+28.5s 386 loc_ic_t2m_mou_8     3703  5.290076
+28.5s 387 loc_og_t2m_mou_8     3703  5.290076
+28.5s 388 loc_ic_mou_8         3703  5.290076
+28.5s 389 std_ic_t2t_mou_8     3703  5.290076
+28.5s 390 std_ic_t2m_mou_8     3703  5.290076
+28.5s 391 std_ic_t2f_mou_8     3703  5.290076
+28.5s 392 std_ic_mou_8         3703  5.290076
+28.5s 393 spl_ic_mou_8         3703  5.290076
+28.5s 394 isd_ic_mou_8         3703  5.290076
+28.5s 395 ic_others_8          3703  5.290076
+28.5s 396 loc_og_t2f_mou_8     3703  5.290076
+28.5s 397 og_others_8          3703  5.290076
+28.5s 398 offnet_mou_8         3703  5.290076
+28.5s 399 roam_og_mou_8        3703  5.290076
+28.5s 400 onnet_mou_8          3703  5.290076
+28.5s 401 roam_ic_mou_8        3703  5.290076
+28.5s 402 loc_og_t2t_mou_8     3703  5.290076
+28.5s 403 loc_og_t2f_mou_6     2768  3.954342
+28.5s 404 std_ic_t2f_mou_6     2768  3.954342
+28.5s 405 roam_og_mou_6        2768  3.954342
+28.5s 406 spl_og_mou_6         2768  3.954342
+28.5s 407 og_others_6          2768  3.954342
+28.5s 408 std_ic_t2m_mou_6     2768  3.954342
+28.5s 409 offnet_mou_6         2768  3.954342
+28.5s 410 loc_ic_mou_6         2768  3.954342
+28.5s 411 loc_ic_t2t_mou_6     2768  3.954342
+28.5s 412 loc_ic_t2m_mou_6     2768  3.954342
+28.5s 413 std_ic_t2t_mou_6     2768  3.954342
+28.5s 414 roam_ic_mou_6        2768  3.954342
+28.5s 415 loc_ic_t2f_mou_6     2768  3.954342
+28.5s 416 std_ic_mou_6         2768  3.954342
+28.5s 417 isd_og_mou_6         2768  3.954342
+28.5s 418 std_og_mou_6         2768  3.954342
+28.5s 419 spl_ic_mou_6         2768  3.954342
+28.5s 420 std_og_t2f_mou_6     2768  3.954342
+28.5s 421 loc_og_t2t_mou_6     2768  3.954342
+28.5s 422 std_og_t2m_mou_6     2768  3.954342
+28.5s 423 loc_og_t2c_mou_6     2768  3.954342
+28.5s 424 onnet_mou_6          2768  3.954342
+28.5s 425 isd_ic_mou_6         2768  3.954342
+28.5s 426 ic_others_6          2768  3.954342
+28.5s 427 std_og_t2t_mou_6     2768  3.954342
+28.5s 428 loc_og_t2m_mou_6     2768  3.954342
+28.5s 429 loc_og_mou_6         2768  3.954342
+28.5s 430 std_ic_mou_7         2687  3.838626
+28.5s 431 std_ic_t2t_mou_7     2687  3.838626
+28.5s 432 ic_others_7          2687  3.838626
+28.5s 433 std_ic_t2m_mou_7     2687  3.838626
+28.5s 434 offnet_mou_7         2687  3.838626
+28.5s 435 isd_ic_mou_7         2687  3.838626
+28.5s 436 onnet_mou_7          2687  3.838626
+28.5s 437 std_ic_t2f_mou_7     2687  3.838626
+28.5s 438 spl_ic_mou_7         2687  3.838626
+28.5s 439 loc_ic_mou_7         2687  3.838626
+28.5s 440 loc_ic_t2f_mou_7     2687  3.838626
+28.5s 441 loc_og_t2t_mou_7     2687  3.838626
+28.5s 442 isd_og_mou_7         2687  3.838626
+28.5s 443 loc_og_t2m_mou_7     2687  3.838626
+28.5s 444 loc_og_t2c_mou_7     2687  3.838626
+28.5s 445 loc_og_mou_7         2687  3.838626
+28.5s 446 std_og_t2t_mou_7     2687  3.838626
+28.5s 447 loc_og_t2f_mou_7     2687  3.838626
+28.5s 448 std_og_t2m_mou_7     2687  3.838626
+28.5s 449 std_og_t2f_mou_7     2687  3.838626
+28.5s 450 roam_og_mou_7        2687  3.838626
+28.5s 451 std_og_mou_7         2687  3.838626
+28.5s 452 spl_og_mou_7         2687  3.838626
+28.5s 453 og_others_7          2687  3.838626
+28.5s 454 loc_ic_t2t_mou_7     2687  3.838626
+28.5s 455 roam_ic_mou_7        2687  3.838626
+28.5s 456 loc_ic_t2m_mou_7     2687  3.838626
+28.5s 457 sachet_2g_8             0  0.000000
+28.5s 458 monthly_2g_6            0  0.000000
+28.5s 459 monthly_2g_7            0  0.000000
+28.5s 460 monthly_2g_8            0  0.000000
+28.5s 461 vol_3g_mb_8             0  0.000000
+28.5s 462 vol_3g_mb_7             0  0.000000
+28.5s 463 vol_3g_mb_6             0  0.000000
+28.5s 464 vol_2g_mb_8             0  0.000000
+28.5s 465 sachet_2g_6             0  0.000000
+28.5s 466 sachet_2g_7             0  0.000000
+28.5s 467 sachet_3g_7             0  0.000000
+28.5s 468 monthly_3g_6            0  0.000000
+28.5s 469 jun_vbc_3g              0  0.000000
+28.5s 470 jul_vbc_3g              0  0.000000
+28.5s 471 monthly_3g_7            0  0.000000
+28.5s 472 monthly_3g_8            0  0.000000
+28.5s 473 sachet_3g_6             0  0.000000
+28.5s 474 vol_2g_mb_6             0  0.000000
+28.5s 475 aug_vbc_3g              0  0.000000
+28.5s 476 aon                     0  0.000000
+28.5s 477 sachet_3g_8             0  0.000000
+28.5s 478 vol_2g_mb_7             0  0.000000
+28.5s 479 id                      0  0.000000
+28.5s 480 last_day_rch_amt_8      0  0.000000
+28.5s 481 last_day_rch_amt_7      0  0.000000
+28.5s 482 arpu_7                  0  0.000000
+28.5s 483 arpu_8                  0  0.000000
+28.5s 484 total_og_mou_6          0  0.000000
+28.5s 485 total_og_mou_7          0  0.000000
+28.5s 486 total_og_mou_8          0  0.000000
+28.5s 487 arpu_6                  0  0.000000
+28.5s 488 total_ic_mou_6          0  0.000000
+28.5s 489 total_ic_mou_7          0  0.000000
+28.5s 490 total_ic_mou_8          0  0.000000
+28.5s 491 total_rech_num_6        0  0.000000
+28.5s 492 total_rech_num_7        0  0.000000
+28.5s 493 total_rech_num_8        0  0.000000
+28.5s 494 total_rech_amt_6        0  0.000000
+28.5s 495 total_rech_amt_7        0  0.000000
+28.5s 496 total_rech_amt_8        0  0.000000
+28.5s 497 max_rech_amt_6          0  0.000000
+28.5s 498 max_rech_amt_7          0  0.000000
+28.5s 499 max_rech_amt_8          0  0.000000
+28.5s 500 last_day_rch_amt_6      0  0.000000
+28.5s 501 churn_probability       0  0.000000
+28.8s 502 <class 'pandas.core.frame.DataFrame'>
+28.8s 503 RangeIndex: 69999 entries, 0 to 69998
+28.8s 504 Data columns (total 126 columns):
+28.8s 505 #    Column              Dtype
+28.8s 506 ---   ------              -----
+28.8s 507 0    id                  int64
+28.8s 508 1    arpu_6              float64
+28.8s 509 2    arpu_7              float64
+28.8s 510 3    arpu_8              float64
+28.8s 511 4    onnet_mou_6         float64
+28.8s 512 5    onnet_mou_7         float64
+28.8s 513 6    onnet_mou_8         float64
+28.8s 514 7    offnet_mou_6        float64
+28.8s 515 8    offnet_mou_7        float64
+28.8s 516 9    offnet_mou_8        float64
+28.8s 517 10   roam_ic_mou_6       float64
+28.8s 518 11   roam_ic_mou_7       float64
+28.8s 519 12   roam_ic_mou_8       float64
+28.8s 520 13   roam_og_mou_6       float64
+28.8s 521 14   roam_og_mou_7       float64
+28.8s 522 15   roam_og_mou_8       float64
+28.8s 523 16   loc_og_t2t_mou_6    float64
+28.8s 524 17   loc_og_t2t_mou_7    float64
+28.8s 525 18   loc_og_t2t_mou_8    float64
+28.8s 526 19   loc_og_t2m_mou_6    float64
+28.8s 527 20   loc_og_t2m_mou_7    float64
+28.8s 528 21   loc_og_t2m_mou_8    float64
+28.8s 529 22   loc_og_t2f_mou_6    float64
+28.8s 530 23   loc_og_t2f_mou_7    float64
+28.8s 531 24   loc_og_t2f_mou_8    float64
+28.8s 532 25   loc_og_t2c_mou_6    float64
+28.8s 533 26   loc_og_t2c_mou_7    float64
+28.8s 534 27   loc_og_t2c_mou_8    float64
+28.8s 535 28   loc_og_mou_6        float64
+28.8s 536 29   loc_og_mou_7        float64
+28.8s 537 30   loc_og_mou_8        float64
+28.8s 538 31   std_og_t2t_mou_6    float64
+28.8s 539 32   std_og_t2t_mou_7    float64
+28.8s 540 33   std_og_t2t_mou_8    float64
+28.8s 541 34   std_og_t2m_mou_6    float64
+28.8s 542 35   std_og_t2m_mou_7    float64
+28.8s 543 36   std_og_t2m_mou_8    float64
+28.8s 544 37   std_og_t2f_mou_6    float64
+28.8s 545 38   std_og_t2f_mou_7    float64
+28.8s 546 39   std_og_t2f_mou_8    float64
+28.8s 547 40   std_og_mou_6        float64
+28.8s 548 41   std_og_mou_7        float64
+28.8s 549 42   std_og_mou_8        float64
+28.8s 550 43   isd_og_mou_6        float64
+28.8s 551 44   isd_og_mou_7        float64
+28.8s 552 45   isd_og_mou_8        float64
+28.8s 553 46   spl_og_mou_6        float64
+28.8s 554 47   spl_og_mou_7        float64
+28.8s 555 48   spl_og_mou_8        float64
+28.8s 556 49   og_others_6         float64
+28.8s 557 50   og_others_7         float64
+28.8s 558 51   og_others_8         float64
+28.8s 559 52   total_og_mou_6      float64
+28.8s 560 53   total_og_mou_7      float64
+28.8s 561 54   total_og_mou_8      float64
+28.8s 562 55   loc_ic_t2t_mou_6    float64
+28.8s 563 56   loc_ic_t2t_mou_7    float64
+28.8s 564 57   loc_ic_t2t_mou_8    float64
+28.8s 565 58   loc_ic_t2m_mou_6    float64
+28.8s 566 59   loc_ic_t2m_mou_7    float64
+28.8s 567 60   loc_ic_t2m_mou_8    float64
+28.8s 568 61   loc_ic_t2f_mou_6    float64
+28.8s 569 62   loc_ic_t2f_mou_7    float64
+28.8s 570 63   loc_ic_t2f_mou_8    float64
+28.8s 571 64   loc_ic_mou_6        float64
+28.8s 572 65   loc_ic_mou_7        float64
+28.8s 573 66   loc_ic_mou_8        float64
+28.8s 574 67   std_ic_t2t_mou_6    float64
+28.8s 575 68   std_ic_t2t_mou_7    float64
+28.8s 576 69   std_ic_t2t_mou_8    float64
+28.8s 577 70   std_ic_t2m_mou_6    float64
+28.8s 578 71   std_ic_t2m_mou_7    float64
+28.8s 579 72   std_ic_t2m_mou_8    float64
+28.8s 580 73   std_ic_t2f_mou_6    float64
+28.8s 581 74   std_ic_t2f_mou_7    float64
+28.8s 582 75   std_ic_t2f_mou_8    float64
+28.8s 583 76   std_ic_mou_6        float64
+28.8s 584 77   std_ic_mou_7        float64
+28.8s 585 78   std_ic_mou_8        float64
+28.8s 586 79   total_ic_mou_6      float64
+28.8s 587 80   total_ic_mou_7      float64
+28.8s 588 81   total_ic_mou_8      float64
+28.8s 589 82   spl_ic_mou_6        float64
+28.8s 590 83   spl_ic_mou_7        float64
+28.8s 591 84   spl_ic_mou_8        float64
+28.8s 592 85   isd_ic_mou_6        float64
+28.8s 593 86   isd_ic_mou_7        float64
+28.8s 594 87   isd_ic_mou_8        float64
+28.8s 595 88   ic_others_6         float64
+28.8s 596 89   ic_others_7         float64
+28.8s 597 90   ic_others_8         float64
+28.8s 598 91   total_rech_num_6    int64
+28.8s 599 92   total_rech_num_7    int64
+28.8s 600 93   total_rech_num_8    int64
+28.8s 601 94   total_rech_amt_6    int64
+28.8s 602 95   total_rech_amt_7    int64
+28.8s 603 96   total_rech_amt_8    int64
+28.8s 604 97   max_rech_amt_6      int64
+28.8s 605 98   max_rech_amt_7      int64
+28.8s 606 99   max_rech_amt_8      int64
+28.8s 607 100  last_day_rch_amt_6  int64
+28.8s 608 101  last_day_rch_amt_7  int64
+28.8s 609 102  last_day_rch_amt_8  int64
+28.8s 610 103  vol_2g_mb_6         float64
+28.8s 611 104  vol_2g_mb_7         float64
+28.8s 612 105  vol_2g_mb_8         float64
+28.8s 613 106  vol_3g_mb_6         float64
+28.8s 614 107  vol_3g_mb_7         float64
+28.8s 615 108  vol_3g_mb_8         float64
+28.8s 616 109  monthly_2g_6        int64
+28.8s 617 110  monthly_2g_7        int64
+28.8s 618 111  monthly_2g_8        int64
+28.8s 619 112  sachet_2g_6         int64
+28.8s 620 113  sachet_2g_7         int64
+28.8s 621 114  sachet_2g_8         int64
+28.8s 622 115  monthly_3g_6        int64
+28.8s 623 116  monthly_3g_7        int64
+28.8s 624 117  monthly_3g_8        int64
+28.8s 625 118  sachet_3g_6         int64
+28.8s 626 119  sachet_3g_7         int64
+28.8s 627 120  sachet_3g_8         int64
+28.8s 628 121  aon                 int64
+28.8s 629 122  aug_vbc_3g          float64
+28.8s 630 123  jul_vbc_3g          float64
+28.8s 631 124  jun_vbc_3g          float64
+28.8s 632 125  churn_probability   int64
+28.8s 633 dtypes: float64(99), int64(27)
+28.8s 634 memory usage: 67.3 MB
+29.0s 635 126
+97.6s 636 --------------------------------------------------
+97.6s 637 Total of missing values:  0
+97.6s 638 --------------------------------------------------
+97.6s 639 Percentage of missing values: 0.00%
+97.6s 640 --------------------------------------------------
+97.6s 641 Total  Percent
+97.6s 642 id                      0      0.0
+97.6s 643 total_ic_mou_6          0      0.0
+97.6s 644 total_rech_num_7        0      0.0
+97.6s 645 total_rech_num_6        0      0.0
+97.6s 646 ic_others_8             0      0.0
+97.6s 647 ic_others_7             0      0.0
+97.6s 648 ic_others_6             0      0.0
+97.6s 649 isd_ic_mou_8            0      0.0
+97.6s 650 isd_ic_mou_7            0      0.0
+97.6s 651 isd_ic_mou_6            0      0.0
+97.6s 652 spl_ic_mou_8            0      0.0
+97.6s 653 spl_ic_mou_7            0      0.0
+97.6s 654 spl_ic_mou_6            0      0.0
+97.6s 655 total_ic_mou_8          0      0.0
+97.6s 656 total_ic_mou_7          0      0.0
+97.6s 657 std_ic_mou_8            0      0.0
+97.6s 658 total_rech_amt_6        0      0.0
+97.6s 659 std_ic_mou_7            0      0.0
+97.6s 660 std_ic_mou_6            0      0.0
+97.6s 661 std_ic_t2f_mou_8        0      0.0
+97.6s 662 std_ic_t2f_mou_7        0      0.0
+97.6s 663 std_ic_t2f_mou_6        0      0.0
+97.6s 664 std_ic_t2m_mou_8        0      0.0
+97.6s 665 std_ic_t2m_mou_7        0      0.0
+97.6s 666 std_ic_t2m_mou_6        0      0.0
+97.6s 667 std_ic_t2t_mou_8        0      0.0
+97.6s 668 std_ic_t2t_mou_7        0      0.0
+97.6s 669 std_ic_t2t_mou_6        0      0.0
+97.6s 670 loc_ic_mou_8            0      0.0
+97.6s 671 loc_ic_mou_7            0      0.0
+97.6s 672 total_rech_num_8        0      0.0
+97.6s 673 total_rech_amt_7        0      0.0
+97.6s 674 arpu_6                  0      0.0
+97.6s 675 monthly_2g_8            0      0.0
+97.6s 676 jun_vbc_3g              0      0.0
+97.6s 677 jul_vbc_3g              0      0.0
+97.6s 678 aug_vbc_3g              0      0.0
+97.6s 679 aon                     0      0.0
+97.6s 680 sachet_3g_8             0      0.0
+97.6s 681 sachet_3g_7             0      0.0
+97.6s 682 sachet_3g_6             0      0.0
+97.6s 683 monthly_3g_8            0      0.0
+97.6s 684 monthly_3g_7            0      0.0
+97.6s 685 monthly_3g_6            0      0.0
+97.6s 686 sachet_2g_8             0      0.0
+97.6s 687 sachet_2g_7             0      0.0
+97.6s 688 sachet_2g_6             0      0.0
+97.6s 689 monthly_2g_7            0      0.0
+97.6s 690 total_rech_amt_8        0      0.0
+97.6s 691 monthly_2g_6            0      0.0
+97.6s 692 vol_3g_mb_8             0      0.0
+97.6s 693 vol_3g_mb_7             0      0.0
+97.6s 694 vol_3g_mb_6             0      0.0
+97.6s 695 vol_2g_mb_8             0      0.0
+97.6s 696 vol_2g_mb_7             0      0.0
+97.6s 697 vol_2g_mb_6             0      0.0
+97.6s 698 last_day_rch_amt_8      0      0.0
+97.6s 699 last_day_rch_amt_7      0      0.0
+97.6s 700 last_day_rch_amt_6      0      0.0
+97.6s 701 max_rech_amt_8          0      0.0
+97.6s 702 max_rech_amt_7          0      0.0
+97.6s 703 max_rech_amt_6          0      0.0
+97.6s 704 loc_ic_mou_6            0      0.0
+97.6s 705 loc_ic_t2f_mou_8        0      0.0
+97.6s 706 loc_ic_t2f_mou_7        0      0.0
+97.6s 707 loc_og_t2t_mou_6        0      0.0
+97.6s 708 loc_og_mou_7            0      0.0
+97.6s 709 loc_og_mou_6            0      0.0
+97.6s 710 loc_og_t2c_mou_8        0      0.0
+97.6s 711 loc_og_t2c_mou_7        0      0.0
+97.6s 712 loc_og_t2c_mou_6        0      0.0
+97.6s 713 loc_og_t2f_mou_8        0      0.0
+97.6s 714 loc_og_t2f_mou_7        0      0.0
+97.6s 715 loc_og_t2f_mou_6        0      0.0
+97.6s 716 loc_og_t2m_mou_8        0      0.0
+97.6s 717 loc_og_t2m_mou_7        0      0.0
+97.6s 718 loc_og_t2m_mou_6        0      0.0
+97.6s 719 loc_og_t2t_mou_8        0      0.0
+97.6s 720 loc_og_t2t_mou_7        0      0.0
+97.6s 721 roam_og_mou_8           0      0.0
+97.6s 722 loc_ic_t2f_mou_6        0      0.0
+97.6s 723 roam_og_mou_7           0      0.0
+97.6s 724 roam_og_mou_6           0      0.0
+97.6s 725 roam_ic_mou_8           0      0.0
+97.6s 726 roam_ic_mou_7           0      0.0
+97.6s 727 roam_ic_mou_6           0      0.0
+97.6s 728 offnet_mou_8            0      0.0
+97.6s 729 offnet_mou_7            0      0.0
+97.6s 730 offnet_mou_6            0      0.0
+97.6s 731 onnet_mou_8             0      0.0
+97.6s 732 onnet_mou_7             0      0.0
+97.6s 733 onnet_mou_6             0      0.0
+97.6s 734 arpu_8                  0      0.0
+97.6s 735 arpu_7                  0      0.0
+97.6s 736 loc_og_mou_8            0      0.0
+97.6s 737 std_og_t2t_mou_6        0      0.0
+97.6s 738 std_og_t2t_mou_7        0      0.0
+97.6s 739 std_og_t2t_mou_8        0      0.0
+97.6s 740 loc_ic_t2m_mou_8        0      0.0
+97.6s 741 loc_ic_t2m_mou_7        0      0.0
+97.6s 742 loc_ic_t2m_mou_6        0      0.0
+97.6s 743 loc_ic_t2t_mou_8        0      0.0
+97.6s 744 loc_ic_t2t_mou_7        0      0.0
+97.6s 745 loc_ic_t2t_mou_6        0      0.0
+97.6s 746 total_og_mou_8          0      0.0
+97.6s 747 total_og_mou_7          0      0.0
+97.6s 748 total_og_mou_6          0      0.0
+97.6s 749 og_others_8             0      0.0
+97.6s 750 og_others_7             0      0.0
+97.6s 751 og_others_6             0      0.0
+97.6s 752 spl_og_mou_8            0      0.0
+97.6s 753 spl_og_mou_7            0      0.0
+97.6s 754 spl_og_mou_6            0      0.0
+97.6s 755 isd_og_mou_8            0      0.0
+97.6s 756 isd_og_mou_7            0      0.0
+97.6s 757 isd_og_mou_6            0      0.0
+97.6s 758 std_og_mou_8            0      0.0
+97.6s 759 std_og_mou_7            0      0.0
+97.6s 760 std_og_mou_6            0      0.0
+97.6s 761 std_og_t2f_mou_8        0      0.0
+97.6s 762 std_og_t2f_mou_7        0      0.0
+97.6s 763 std_og_t2f_mou_6        0      0.0
+97.6s 764 std_og_t2m_mou_8        0      0.0
+97.6s 765 std_og_t2m_mou_7        0      0.0
+97.6s 766 std_og_t2m_mou_6        0      0.0
+97.6s 767 churn_probability       0      0.0
+98.8s 768 126
+98.8s 769 ['id', 'arpu_6', 'arpu_7', 'arpu_8', 'onnet_mou_6', 'onnet_mou_7', 'onnet_mou_8', 'offnet_mou_6', 'offnet_mou_7', 'offnet_mou_8', 'roam_ic_mou_6', 'roam_ic_mou_7', 'roam_ic_mou_8', 'roam_og_mou_6', 'roam_og_mou_7', 'roam_og_mou_8', 'loc_og_t2t_mou_6', 'loc_og_t2t_mou_7', 'loc_og_t2t_mou_8', 'loc_og_t2m_mou_6', 'loc_og_t2m_mou_7', 'loc_og_t2m_mou_8', 'loc_og_t2f_mou_6', 'loc_og_t2f_mou_7', 'loc_og_t2f_mou_8', 'loc_og_t2c_mou_6', 'loc_og_t2c_mou_7', 'loc_og_t2c_mou_8', 'loc_og_mou_6', 'loc_og_mou_7', 'loc_og_mou_8', 'std_og_t2t_mou_6', 'std_og_t2t_mou_7', 'std_og_t2t_mou_8', 'std_og_t2m_mou_6', 'std_og_t2m_mou_7', 'std_og_t2m_mou_8', 'std_og_t2f_mou_6', 'std_og_t2f_mou_7', 'std_og_t2f_mou_8', 'std_og_mou_6', 'std_og_mou_7', 'std_og_mou_8', 'isd_og_mou_6', 'isd_og_mou_7', 'isd_og_mou_8', 'spl_og_mou_6', 'spl_og_mou_7', 'spl_og_mou_8', 'og_others_6', 'og_others_7', 'og_others_8', 'total_og_mou_6', 'total_og_mou_7', 'total_og_mou_8', 'loc_ic_t2t_mou_6', 'loc_ic_t2t_mou_7', 'loc_ic_t2t_mou_8', 'loc_ic_t2m_mou_6', 'loc_ic_t2m_mou_7', 'loc_ic_t2m_mou_8', 'loc_ic_t2f_mou_6', 'loc_ic_t2f_mou_7', 'loc_ic_t2f_mou_8', 'loc_ic_mou_6', 'loc_ic_mou_7', 'loc_ic_mou_8', 'std_ic_t2t_mou_6', 'std_ic_t2t_mou_7', 'std_ic_t2t_mou_8', 'std_ic_t2m_mou_6', 'std_ic_t2m_mou_7', 'std_ic_t2m_mou_8', 'std_ic_t2f_mou_6', 'std_ic_t2f_mou_7', 'std_ic_t2f_mou_8', 'std_ic_mou_6', 'std_ic_mou_7', 'std_ic_mou_8', 'total_ic_mou_6', 'total_ic_mou_7', 'total_ic_mou_8', 'spl_ic_mou_6', 'spl_ic_mou_7', 'spl_ic_mou_8', 'isd_ic_mou_6', 'isd_ic_mou_7', 'isd_ic_mou_8', 'ic_others_6', 'ic_others_7', 'ic_others_8', 'total_rech_num_6', 'total_rech_num_7', 'total_rech_num_8', 'total_rech_amt_6', 'total_rech_amt_7', 'total_rech_amt_8', 'max_rech_amt_6', 'max_rech_amt_7', 'max_rech_amt_8', 'last_day_rch_amt_6', 'last_day_rch_amt_7', 'last_day_rch_amt_8', 'vol_2g_mb_6', 'vol_2g_mb_7', 'vol_2g_mb_8', 'vol_3g_mb_6', 'vol_3g_mb_7', 'vol_3g_mb_8', 'monthly_2g_6', 'monthly_2g_7', 'monthly_2g_8', 'sachet_2g_6', 'sachet_2g_7', 'sachet_2g_8', 'monthly_3g_6', 'monthly_3g_7', 'monthly_3g_8', 'sachet_3g_6', 'sachet_3g_7', 'sachet_3g_8', 'aon', 'aug_vbc_3g', 'jul_vbc_3g', 'jun_vbc_3g', 'churn_probability']
+102.8s 770 monthly_2g_6 : 5
+102.8s 771 monthly_2g_7 : 6
+102.8s 772 monthly_2g_8 : 6
+102.8s 773 monthly_3g_6 : 10
+102.8s 774 monthly_3g_7 : 13
+102.8s 775 monthly_3g_8 : 12
+102.8s 776 churn_probability : 2
+106.1s 777 125
+106.1s 778 ['id', 'arpu_6', 'arpu_7', 'arpu_8', 'onnet_mou_6', 'onnet_mou_7', 'onnet_mou_8', 'offnet_mou_6', 'offnet_mou_7', 'offnet_mou_8', 'roam_ic_mou_6', 'roam_ic_mou_7', 'roam_ic_mou_8', 'roam_og_mou_6', 'roam_og_mou_7', 'roam_og_mou_8', 'loc_og_t2t_mou_6', 'loc_og_t2t_mou_7', 'loc_og_t2t_mou_8', 'loc_og_t2m_mou_6', 'loc_og_t2m_mou_7', 'loc_og_t2m_mou_8', 'loc_og_t2f_mou_6', 'loc_og_t2f_mou_7', 'loc_og_t2f_mou_8', 'loc_og_t2c_mou_6', 'loc_og_t2c_mou_7', 'loc_og_t2c_mou_8', 'loc_og_mou_6', 'loc_og_mou_7', 'loc_og_mou_8', 'std_og_t2t_mou_6', 'std_og_t2t_mou_7', 'std_og_t2t_mou_8', 'std_og_t2m_mou_6', 'std_og_t2m_mou_7', 'std_og_t2m_mou_8', 'std_og_t2f_mou_6', 'std_og_t2f_mou_7', 'std_og_t2f_mou_8', 'std_og_mou_6', 'std_og_mou_7', 'std_og_mou_8', 'isd_og_mou_6', 'isd_og_mou_7', 'isd_og_mou_8', 'spl_og_mou_6', 'spl_og_mou_7', 'spl_og_mou_8', 'og_others_6', 'og_others_7', 'og_others_8', 'total_og_mou_6', 'total_og_mou_7', 'total_og_mou_8', 'loc_ic_t2t_mou_6', 'loc_ic_t2t_mou_7', 'loc_ic_t2t_mou_8', 'loc_ic_t2m_mou_6', 'loc_ic_t2m_mou_7', 'loc_ic_t2m_mou_8', 'loc_ic_t2f_mou_6', 'loc_ic_t2f_mou_7', 'loc_ic_t2f_mou_8', 'loc_ic_mou_6', 'loc_ic_mou_7', 'loc_ic_mou_8', 'std_ic_t2t_mou_6', 'std_ic_t2t_mou_7', 'std_ic_t2t_mou_8', 'std_ic_t2m_mou_6', 'std_ic_t2m_mou_7', 'std_ic_t2m_mou_8', 'std_ic_t2f_mou_6', 'std_ic_t2f_mou_7', 'std_ic_t2f_mou_8', 'std_ic_mou_6', 'std_ic_mou_7', 'std_ic_mou_8', 'total_ic_mou_6', 'total_ic_mou_7', 'total_ic_mou_8', 'spl_ic_mou_6', 'spl_ic_mou_7', 'spl_ic_mou_8', 'isd_ic_mou_6', 'isd_ic_mou_7', 'isd_ic_mou_8', 'ic_others_6', 'ic_others_7', 'ic_others_8', 'total_rech_num_6', 'total_rech_num_7', 'total_rech_num_8', 'total_rech_amt_6', 'total_rech_amt_7', 'total_rech_amt_8', 'max_rech_amt_6', 'max_rech_amt_7', 'max_rech_amt_8', 'last_day_rch_amt_6', 'last_day_rch_amt_7', 'last_day_rch_amt_8', 'vol_2g_mb_6', 'vol_2g_mb_7', 'vol_2g_mb_8', 'vol_3g_mb_6', 'vol_3g_mb_7', 'vol_3g_mb_8', 'monthly_2g_6', 'monthly_2g_7', 'monthly_2g_8', 'sachet_2g_6', 'sachet_2g_7', 'sachet_2g_8', 'monthly_3g_6', 'monthly_3g_7', 'monthly_3g_8', 'sachet_3g_6', 'sachet_3g_7', 'sachet_3g_8', 'aon', 'aug_vbc_3g', 'jul_vbc_3g', 'jun_vbc_3g']
+107.1s 779 count    55999.000000
+107.1s 780 mean       128.850534
+107.1s 781 std        306.926875
+107.1s 782 min       -234.497116
+107.1s 783 25%          6.330000
+107.1s 784 50%         31.210000
+107.1s 785 75%        110.260000
+107.1s 786 max      10752.560000
+107.1s 787 Name: onnet_mou_8, dtype: float64
+155.8s 788 Total Number of Top Importances Feature: 25
+155.8s 789 ['total_ic_mou_8', 'total_og_mou_8', 'arpu_8', 'isd_og_mou_8', 'roam_ic_mou_8', 'roam_og_mou_8', 'std_og_t2m_mou_8', 'max_rech_amt_8', 'og_others_8', 'loc_ic_mou_8', 'loc_og_t2t_mou_8', 'total_rech_amt_8', 'loc_ic_t2m_mou_8', 'isd_og_mou_7', 'loc_ic_t2t_mou_8', 'loc_ic_t2t_mou_7', 'std_og_mou_8', 'last_day_rch_amt_8', 'loc_og_mou_8', 'aon', 'total_ic_mou_7', 'loc_og_t2m_mou_8', 'id', 'offnet_mou_8', 'arpu_7']
+161.4s 790 Total Number of Feature Importances: 25
+161.4s 791 ['total_ic_mou_8', 'roam_og_mou_8', 'vol_2g_mb_8', 'last_day_rch_amt_8', 'loc_ic_mou_8', 'vol_3g_mb_8', 'spl_ic_mou_8', 'std_og_mou_6', 'std_og_mou_7', 'loc_ic_t2m_mou_8', 'total_rech_amt_8', 'roam_og_mou_7', 'roam_ic_mou_8', 'spl_og_mou_6', 'loc_ic_mou_7', 'loc_ic_t2f_mou_8', 'arpu_8', 'total_og_mou_8', 'total_rech_num_7', 'total_ic_mou_7', 'aug_vbc_3g', 'isd_og_mou_6', 'max_rech_amt_8', 'aon', 'total_ic_mou_6']
+161.6s 792 (125, 2)
+187.3s 793 Model 1 - Training accuracy: 0.8034786335470276
+188.6s 794 Confusion Matrix:
+188.6s 795 [[40185 10055]
+188.6s 796 [  950  4809]]
+188.6s 797 Accuracy Score:  0.8
+188.6s 798 Precision Score:  0.32
+188.6s 799 Recall Score:  0.84
+188.6s 800 ROC AUC Score:  0.82
+188.6s 801 F1 Score:  0.47
+189.0s 802 Model 1 - Test accuracy: 0.7985
+190.0s 803 Confusion Matrix:
+190.0s 804 [[10026  2601]
+190.0s 805 [  220  1153]]
+190.0s 806 Accuracy Score:  0.8
+190.0s 807 Precision Score:  0.31
+190.0s 808 Recall Score:  0.84
+190.0s 809 ROC AUC Score:  0.82
+190.0s 810 F1 Score:  0.45
+202.5s 811 Model 2 - Training accuracy: 0.9239093555242058
+203.1s 812 Confusion Matrix:
+203.1s 813 [[49503   737]
+203.1s 814 [ 3524  2235]]
+203.1s 815 Accuracy Score:  0.92
+203.1s 816 Precision Score:  0.75
+203.1s 817 Recall Score:  0.39
+203.1s 818 ROC AUC Score:  0.69
+203.1s 819 F1 Score:  0.51
+203.4s 820 Model 2 - Test accuracy: 0.9208571428571428
+204.4s 821 Confusion Matrix:
+204.4s 822 [[12320   307]
+204.4s 823 [  801   572]]
+204.4s 824 Accuracy Score:  0.92
+204.4s 825 Precision Score:  0.65
+204.4s 826 Recall Score:  0.42
+204.4s 827 ROC AUC Score:  0.7
+204.4s 828 F1 Score:  0.51
+222.3s 829 dict_keys(['C', 'class_weight', 'dual', 'fit_intercept', 'intercept_scaling', 'l1_ratio', 'max_iter', 'multi_class', 'n_jobs', 'penalty', 'random_state', 'solver', 'tol', 'verbose', 'warm_start'])
+352.3s 830 Best Accuracy:  0.797478451519906
+352.3s 831 Best hyperparameters:  {'model__C': 0.1, 'model__penalty': 'l2'}
+353.5s 832 Confusion Matrix:
+353.5s 833 [[39883 10357]
+353.5s 834 [  925  4834]]
+353.5s 835 Accuracy Score:  0.8
+353.5s 836 Precision Score:  0.32
+353.5s 837 Recall Score:  0.84
+353.5s 838 ROC AUC Score:  0.82
+353.5s 839 F1 Score:  0.46
+354.4s 840 Confusion Matrix:
+354.4s 841 [[9946 2681]
+354.4s 842 [ 216 1157]]
+354.4s 843 Accuracy Score:  0.79
+354.4s 844 Precision Score:  0.3
+354.4s 845 Recall Score:  0.84
+354.4s 846 ROC AUC Score:  0.82
+354.4s 847 F1 Score:  0.44
+355.5s 848 Fitting 5 folds for each of 4 candidates, totalling 20 fits
+1302.5s 849 Best Accuracy:  0.9240523181278941
+1302.5s 850 Best hyperparameters:  {'forest__criterion': 'entropy', 'forest__max_depth': 15, 'forest__n_estimators': 200}
+1304.7s 851 Confusion Matrix:
+1304.7s 852 [[49300   940]
+1304.7s 853 [  223  5536]]
+1304.7s 854 Accuracy Score:  0.98
+1304.7s 855 Precision Score:  0.85
+1304.7s 856 Recall Score:  0.96
+1304.7s 857 ROC AUC Score:  0.97
+1304.7s 858 F1 Score:  0.9
+1305.3s 859 Test Predictions: [0 0 0 ... 0 0 0]
+1305.8s 860 Confusion Matrix:
+1305.8s 861 [[12266   361]
+1305.8s 862 [  718   655]]
+1305.8s 863 Accuracy Score:  0.92
+1305.8s 864 Precision Score:  0.64
+1305.8s 865 Recall Score:  0.48
+1305.8s 866 ROC AUC Score:  0.72
+1305.8s 867 F1 Score:  0.55
+1307.2s 868 Fitting 3 folds for each of 1 candidates, totalling 3 fits
+1333.0s 869 Best Accuracy:  0.9271058309249819
+1333.0s 870 Best hyperparameters:  {'xgb__n_estimators': 200, 'xgb__max_depth': 6, 'xgb__learning_rate': 0.1, 'xgb__colsample_bytree': 1.0}
+1334.9s 871 Confusion Matrix:
+1334.9s 872 [[49952   288]
+1334.9s 873 [ 1372  4387]]
+1334.9s 874 Accuracy Score:  0.97
+1334.9s 875 Precision Score:  0.94
+1334.9s 876 Recall Score:  0.76
+1334.9s 877 ROC AUC Score:  0.88
+1334.9s 878 F1 Score:  0.84
+1335.9s 879 Confusion Matrix:
+1335.9s 880 [[12382   245]
+1335.9s 881 [  763   610]]
+1335.9s 882 Accuracy Score:  0.93
+1335.9s 883 Precision Score:  0.71
+1335.9s 884 Recall Score:  0.44
+1335.9s 885 ROC AUC Score:  0.71
+1335.9s 886 F1 Score:  0.55
+1336.8s 887 Fitting 3 folds for each of 10 candidates, totalling 30 fits
+1340.9s 888 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1340.9s 889 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1340.9s 890 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1340.9s 891 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1341.4s 892 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1341.4s 893 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1341.4s 894 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1341.4s 895 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1341.4s 896 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1341.4s 897 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.038138 seconds.
+1341.4s 898 You can set `force_col_wise=true` to remove the overhead.
+1341.4s 899 [LightGBM] [Info] Total Bins 27307
+1341.4s 900 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1341.4s 901 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1341.4s 902 [LightGBM] [Info] Start training from score -2.166125
+1344.6s 903 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1344.6s 904 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1344.6s 905 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1344.6s 906 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1348.9s 907 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1348.9s 908 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1348.9s 909 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1348.9s 910 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1349.3s 911 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1349.3s 912 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1349.3s 913 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1349.3s 914 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1349.3s 915 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1349.3s 916 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.036704 seconds.
+1349.3s 917 You can set `force_col_wise=true` to remove the overhead.
+1349.3s 918 [LightGBM] [Info] Total Bins 27320
+1349.3s 919 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1349.3s 920 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1349.3s 921 [LightGBM] [Info] Start training from score -2.165864
+1352.3s 922 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1352.3s 923 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1352.3s 924 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1352.3s 925 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1356.3s 926 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1356.3s 927 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1356.3s 928 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1356.3s 929 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1356.7s 930 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1356.7s 931 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1356.7s 932 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1356.7s 933 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1356.7s 934 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1356.7s 935 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.036054 seconds.
+1356.7s 936 You can set `force_col_wise=true` to remove the overhead.
+1356.7s 937 [LightGBM] [Info] Total Bins 27301
+1356.7s 938 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1356.7s 939 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1356.7s 940 [LightGBM] [Info] Start training from score -2.166154
+1359.5s 941 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1359.5s 942 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1359.5s 943 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1359.5s 944 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1363.2s 945 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1363.2s 946 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1363.2s 947 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1363.2s 948 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1363.2s 949 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1363.6s 950 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1363.6s 951 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1363.6s 952 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1363.6s 953 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1363.6s 954 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1363.6s 955 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1363.6s 956 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034824 seconds.
+1363.6s 957 You can set `force_col_wise=true` to remove the overhead.
+1363.6s 958 [LightGBM] [Info] Total Bins 27307
+1363.6s 959 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1363.6s 960 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1363.6s 961 [LightGBM] [Info] Start training from score -2.166125
+1368.1s 962 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1368.1s 963 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1368.1s 964 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1368.1s 965 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1368.1s 966 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1371.7s 967 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1371.7s 968 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1371.7s 969 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1371.7s 970 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1371.7s 971 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1372.1s 972 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1372.1s 973 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1372.1s 974 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1372.1s 975 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1372.1s 976 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1372.1s 977 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1372.1s 978 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.036254 seconds.
+1372.1s 979 You can set `force_col_wise=true` to remove the overhead.
+1372.1s 980 [LightGBM] [Info] Total Bins 27320
+1372.1s 981 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1372.1s 982 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1372.1s 983 [LightGBM] [Info] Start training from score -2.165864
+1374.7s 984 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1374.7s 985 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1374.7s 986 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1374.7s 987 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1374.7s 988 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1378.9s 989 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1378.9s 990 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1378.9s 991 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1378.9s 992 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1378.9s 993 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1379.3s 994 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1379.3s 995 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1379.3s 996 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1379.3s 997 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1379.3s 998 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1379.3s 999 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1379.3s 1000 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034947 seconds.
+1379.3s 1001 You can set `force_col_wise=true` to remove the overhead.
+1379.3s 1002 [LightGBM] [Info] Total Bins 27301
+1379.3s 1003 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1379.3s 1004 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1379.3s 1005 [LightGBM] [Info] Start training from score -2.166154
+1382.3s 1006 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1382.3s 1007 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1382.3s 1008 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1382.3s 1009 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1382.3s 1010 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1387.1s 1011 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1387.1s 1012 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1387.1s 1013 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1387.1s 1014 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1387.5s 1015 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1387.5s 1016 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1387.5s 1017 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1387.5s 1018 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1387.5s 1019 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1387.5s 1020 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.035713 seconds.
+1387.5s 1021 You can set `force_col_wise=true` to remove the overhead.
+1387.5s 1022 [LightGBM] [Info] Total Bins 27307
+1387.5s 1023 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1387.5s 1024 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1387.5s 1025 [LightGBM] [Info] Start training from score -2.166125
+1394.9s 1026 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1394.9s 1027 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1394.9s 1028 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1394.9s 1029 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1399.6s 1030 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1399.6s 1031 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1399.6s 1032 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1399.6s 1033 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1399.8s 1034 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1399.8s 1035 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1399.8s 1036 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1399.8s 1037 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1399.8s 1038 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1399.8s 1039 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034330 seconds.
+1399.8s 1040 You can set `force_col_wise=true` to remove the overhead.
+1399.8s 1041 [LightGBM] [Info] Total Bins 27320
+1399.8s 1042 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1399.8s 1043 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1399.8s 1044 [LightGBM] [Info] Start training from score -2.165864
+1407.1s 1045 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1407.1s 1046 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1407.1s 1047 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1407.1s 1048 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1411.5s 1049 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1411.5s 1050 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1411.5s 1051 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1411.5s 1052 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1411.9s 1053 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1411.9s 1054 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1411.9s 1055 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1411.9s 1056 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1411.9s 1057 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1411.9s 1058 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.035008 seconds.
+1411.9s 1059 You can set `force_col_wise=true` to remove the overhead.
+1411.9s 1060 [LightGBM] [Info] Total Bins 27301
+1411.9s 1061 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1411.9s 1062 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1411.9s 1063 [LightGBM] [Info] Start training from score -2.166154
+1418.8s 1064 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1418.8s 1065 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1418.8s 1066 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1418.8s 1067 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1422.9s 1068 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1422.9s 1069 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1422.9s 1070 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1422.9s 1071 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1423.3s 1072 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1423.3s 1073 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1423.3s 1074 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1423.3s 1075 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1423.3s 1076 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1423.3s 1077 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034267 seconds.
+1423.3s 1078 You can set `force_col_wise=true` to remove the overhead.
+1423.3s 1079 [LightGBM] [Info] Total Bins 27307
+1423.3s 1080 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1423.3s 1081 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1423.3s 1082 [LightGBM] [Info] Start training from score -2.166125
+1428.8s 1083 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1428.8s 1084 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1428.8s 1085 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1428.8s 1086 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1433.2s 1087 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1433.2s 1088 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1433.2s 1089 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1433.2s 1090 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1433.4s 1091 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1433.4s 1092 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1433.4s 1093 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1433.4s 1094 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1433.4s 1095 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1433.4s 1096 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034855 seconds.
+1433.4s 1097 You can set `force_col_wise=true` to remove the overhead.
+1433.4s 1098 [LightGBM] [Info] Total Bins 27320
+1433.4s 1099 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1433.4s 1100 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1433.4s 1101 [LightGBM] [Info] Start training from score -2.165864
+1438.5s 1102 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1438.5s 1103 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1438.5s 1104 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1438.5s 1105 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1442.1s 1106 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1442.1s 1107 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1442.1s 1108 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1442.1s 1109 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1442.6s 1110 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1442.6s 1111 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1442.6s 1112 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1442.6s 1113 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1442.6s 1114 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1442.6s 1115 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034084 seconds.
+1442.6s 1116 You can set `force_col_wise=true` to remove the overhead.
+1442.6s 1117 [LightGBM] [Info] Total Bins 27301
+1442.6s 1118 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1442.6s 1119 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1442.6s 1120 [LightGBM] [Info] Start training from score -2.166154
+1447.9s 1121 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1447.9s 1122 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1447.9s 1123 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1447.9s 1124 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1452.4s 1125 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1452.4s 1126 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1452.4s 1127 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1452.4s 1128 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1452.8s 1129 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1452.8s 1130 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1452.8s 1131 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1452.8s 1132 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1452.8s 1133 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1452.8s 1134 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.037138 seconds.
+1452.8s 1135 You can set `force_col_wise=true` to remove the overhead.
+1452.8s 1136 [LightGBM] [Info] Total Bins 27307
+1452.8s 1137 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1452.8s 1138 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1452.8s 1139 [LightGBM] [Info] Start training from score -2.166125
+1458.3s 1140 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1458.3s 1141 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1458.3s 1142 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1458.3s 1143 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1462.5s 1144 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1462.5s 1145 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1462.5s 1146 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1462.5s 1147 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1463.0s 1148 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1463.0s 1149 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1463.0s 1150 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1463.0s 1151 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1463.0s 1152 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1463.0s 1153 [LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.055308 seconds.
+1463.0s 1154 You can set `force_row_wise=true` to remove the overhead.
+1463.0s 1155 And if memory is not enough, you can set `force_col_wise=true`.
+1463.0s 1156 [LightGBM] [Info] Total Bins 27320
+1463.0s 1157 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1463.0s 1158 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1463.0s 1159 [LightGBM] [Info] Start training from score -2.165864
+1469.2s 1160 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1469.2s 1161 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1469.2s 1162 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1469.2s 1163 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1473.2s 1164 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1473.2s 1165 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1473.2s 1166 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1473.2s 1167 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1473.6s 1168 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1473.6s 1169 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1473.6s 1170 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1473.6s 1171 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1473.6s 1172 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1473.6s 1173 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.036178 seconds.
+1473.6s 1174 You can set `force_col_wise=true` to remove the overhead.
+1473.6s 1175 [LightGBM] [Info] Total Bins 27301
+1473.6s 1176 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1473.6s 1177 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1473.6s 1178 [LightGBM] [Info] Start training from score -2.166154
+1478.8s 1179 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1478.8s 1180 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1478.8s 1181 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1478.8s 1182 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1483.5s 1183 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1483.5s 1184 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1483.5s 1185 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1483.5s 1186 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1483.9s 1187 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1483.9s 1188 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1483.9s 1189 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1483.9s 1190 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1483.9s 1191 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1483.9s 1192 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.034888 seconds.
+1483.9s 1193 You can set `force_col_wise=true` to remove the overhead.
+1483.9s 1194 [LightGBM] [Info] Total Bins 27307
+1483.9s 1195 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1483.9s 1196 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1483.9s 1197 [LightGBM] [Info] Start training from score -2.166125
+1492.2s 1198 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1492.2s 1199 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1492.2s 1200 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1492.2s 1201 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1497.5s 1202 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1497.5s 1203 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1497.5s 1204 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1497.5s 1205 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1498.0s 1206 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1498.0s 1207 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1498.0s 1208 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1498.0s 1209 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1498.0s 1210 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1498.0s 1211 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.038028 seconds.
+1498.0s 1212 You can set `force_col_wise=true` to remove the overhead.
+1498.0s 1213 [LightGBM] [Info] Total Bins 27320
+1498.0s 1214 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1498.0s 1215 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1498.0s 1216 [LightGBM] [Info] Start training from score -2.165864
+1506.0s 1217 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1506.0s 1218 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1506.0s 1219 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1506.0s 1220 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1510.2s 1221 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1510.2s 1222 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1510.2s 1223 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1510.2s 1224 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1510.7s 1225 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1510.7s 1226 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1510.7s 1227 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1510.7s 1228 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1510.7s 1229 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1510.7s 1230 [LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.019693 seconds.
+1510.7s 1231 You can set `force_row_wise=true` to remove the overhead.
+1510.7s 1232 And if memory is not enough, you can set `force_col_wise=true`.
+1510.7s 1233 [LightGBM] [Info] Total Bins 27301
+1510.7s 1234 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1510.7s 1235 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1510.7s 1236 [LightGBM] [Info] Start training from score -2.166154
+1518.4s 1237 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1518.4s 1238 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1518.4s 1239 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1518.4s 1240 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1522.6s 1241 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1522.6s 1242 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1522.6s 1243 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1522.6s 1244 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1523.0s 1245 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1523.0s 1246 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1523.0s 1247 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1523.0s 1248 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1523.0s 1249 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1523.0s 1250 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.036315 seconds.
+1523.0s 1251 You can set `force_col_wise=true` to remove the overhead.
+1523.0s 1252 [LightGBM] [Info] Total Bins 27307
+1523.0s 1253 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1523.0s 1254 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1523.0s 1255 [LightGBM] [Info] Start training from score -2.166125
+1529.8s 1256 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1529.8s 1257 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1529.8s 1258 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1529.8s 1259 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1533.6s 1260 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1533.6s 1261 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1533.6s 1262 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1533.6s 1263 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1534.0s 1264 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1534.0s 1265 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1534.0s 1266 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1534.0s 1267 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1534.0s 1268 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1534.0s 1269 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.038610 seconds.
+1534.0s 1270 You can set `force_col_wise=true` to remove the overhead.
+1534.0s 1271 [LightGBM] [Info] Total Bins 27320
+1534.0s 1272 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1534.0s 1273 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1534.0s 1274 [LightGBM] [Info] Start training from score -2.165864
+1539.2s 1275 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1539.2s 1276 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1539.2s 1277 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1539.2s 1278 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1542.8s 1279 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1542.8s 1280 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1542.8s 1281 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1542.8s 1282 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1543.2s 1283 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1543.2s 1284 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1543.2s 1285 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1543.2s 1286 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1543.2s 1287 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1543.2s 1288 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.038284 seconds.
+1543.2s 1289 You can set `force_col_wise=true` to remove the overhead.
+1543.2s 1290 [LightGBM] [Info] Total Bins 27301
+1543.2s 1291 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1543.2s 1292 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1543.2s 1293 [LightGBM] [Info] Start training from score -2.166154
+1547.8s 1294 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1547.8s 1295 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1547.8s 1296 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1547.8s 1297 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1552.2s 1298 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1552.2s 1299 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1552.2s 1300 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1552.2s 1301 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1552.2s 1302 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1552.6s 1303 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1552.6s 1304 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1552.6s 1305 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1552.6s 1306 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1552.6s 1307 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1552.6s 1308 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1552.6s 1309 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.035136 seconds.
+1552.6s 1310 You can set `force_col_wise=true` to remove the overhead.
+1552.6s 1311 [LightGBM] [Info] Total Bins 27307
+1552.6s 1312 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1552.6s 1313 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1552.6s 1314 [LightGBM] [Info] Start training from score -2.166125
+1555.3s 1315 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1555.3s 1316 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1555.3s 1317 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1555.3s 1318 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1555.3s 1319 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1559.8s 1320 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1559.8s 1321 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1559.8s 1322 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1559.8s 1323 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1559.8s 1324 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1560.4s 1325 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1560.4s 1326 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1560.4s 1327 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1560.4s 1328 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1560.4s 1329 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1560.4s 1330 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1560.4s 1331 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.066802 seconds.
+1560.4s 1332 You can set `force_col_wise=true` to remove the overhead.
+1560.4s 1333 [LightGBM] [Info] Total Bins 27320
+1560.4s 1334 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1560.4s 1335 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1560.4s 1336 [LightGBM] [Info] Start training from score -2.165864
+1563.5s 1337 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1563.5s 1338 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1563.5s 1339 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1563.5s 1340 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1563.5s 1341 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1567.8s 1342 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1567.8s 1343 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1567.8s 1344 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1567.8s 1345 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1567.8s 1346 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1568.3s 1347 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1568.3s 1348 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1568.3s 1349 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1568.3s 1350 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1568.3s 1351 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1568.3s 1352 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1568.3s 1353 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.040150 seconds.
+1568.3s 1354 You can set `force_col_wise=true` to remove the overhead.
+1568.3s 1355 [LightGBM] [Info] Total Bins 27301
+1568.3s 1356 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1568.3s 1357 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1568.3s 1358 [LightGBM] [Info] Start training from score -2.166154
+1571.2s 1359 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1571.2s 1360 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1571.2s 1361 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1571.2s 1362 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1571.2s 1363 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1574.7s 1364 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1574.7s 1365 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1574.7s 1366 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1574.7s 1367 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1574.7s 1368 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1575.2s 1369 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1575.2s 1370 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1575.2s 1371 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1575.2s 1372 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1575.2s 1373 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1575.2s 1374 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1575.2s 1375 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.040297 seconds.
+1575.2s 1376 You can set `force_col_wise=true` to remove the overhead.
+1575.2s 1377 [LightGBM] [Info] Total Bins 27307
+1575.2s 1378 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1575.2s 1379 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1575.2s 1380 [LightGBM] [Info] Start training from score -2.166125
+1578.1s 1381 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1578.1s 1382 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1578.1s 1383 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1578.1s 1384 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1578.1s 1385 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1583.0s 1386 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1583.0s 1387 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1583.0s 1388 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1583.0s 1389 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1583.0s 1390 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1583.5s 1391 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1583.5s 1392 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1583.5s 1393 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1583.5s 1394 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1583.5s 1395 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1583.5s 1396 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1583.5s 1397 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.035075 seconds.
+1583.5s 1398 You can set `force_col_wise=true` to remove the overhead.
+1583.5s 1399 [LightGBM] [Info] Total Bins 27320
+1583.5s 1400 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1583.5s 1401 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1583.5s 1402 [LightGBM] [Info] Start training from score -2.165864
+1586.3s 1403 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1586.3s 1404 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1586.3s 1405 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1586.3s 1406 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1586.3s 1407 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1590.4s 1408 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1590.4s 1409 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1590.4s 1410 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1590.4s 1411 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1590.4s 1412 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1590.8s 1413 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1590.8s 1414 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1590.8s 1415 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1590.8s 1416 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1590.8s 1417 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1590.8s 1418 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1590.8s 1419 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.053707 seconds.
+1590.8s 1420 You can set `force_col_wise=true` to remove the overhead.
+1590.8s 1421 [LightGBM] [Info] Total Bins 27301
+1590.8s 1422 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1590.8s 1423 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1590.8s 1424 [LightGBM] [Info] Start training from score -2.166154
+1595.2s 1425 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1595.2s 1426 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1595.2s 1427 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1595.2s 1428 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1595.2s 1429 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1599.2s 1430 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1599.2s 1431 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1599.2s 1432 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1599.2s 1433 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1599.2s 1434 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1599.6s 1435 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1599.6s 1436 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1599.6s 1437 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1599.6s 1438 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1599.6s 1439 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1599.6s 1440 [LightGBM] [Info] Number of positive: 3839, number of negative: 33493
+1599.6s 1441 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.039390 seconds.
+1599.6s 1442 You can set `force_col_wise=true` to remove the overhead.
+1599.6s 1443 [LightGBM] [Info] Total Bins 27307
+1599.6s 1444 [LightGBM] [Info] Number of data points in the train set: 37332, number of used features: 125
+1599.6s 1445 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102834 -> initscore=-2.166125
+1599.6s 1446 [LightGBM] [Info] Start training from score -2.166125
+1605.3s 1447 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1605.3s 1448 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1605.3s 1449 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1605.3s 1450 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1605.3s 1451 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1609.2s 1452 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1609.2s 1453 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1609.2s 1454 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1609.2s 1455 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1609.2s 1456 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1609.7s 1457 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1609.7s 1458 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1609.7s 1459 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1609.7s 1460 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1609.7s 1461 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1609.7s 1462 [LightGBM] [Info] Number of positive: 3840, number of negative: 33493
+1609.7s 1463 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.035328 seconds.
+1609.7s 1464 You can set `force_col_wise=true` to remove the overhead.
+1609.7s 1465 [LightGBM] [Info] Total Bins 27320
+1609.7s 1466 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1609.7s 1467 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102858 -> initscore=-2.165864
+1609.7s 1468 [LightGBM] [Info] Start training from score -2.165864
+1615.0s 1469 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1615.0s 1470 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1615.0s 1471 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1615.0s 1472 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1615.0s 1473 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1619.1s 1474 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1619.1s 1475 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1619.1s 1476 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1619.1s 1477 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1619.1s 1478 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1619.5s 1479 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1619.5s 1480 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1619.5s 1481 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1619.5s 1482 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1619.5s 1483 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1619.5s 1484 [LightGBM] [Info] Number of positive: 3839, number of negative: 33494
+1619.5s 1485 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.040404 seconds.
+1619.5s 1486 You can set `force_col_wise=true` to remove the overhead.
+1619.5s 1487 [LightGBM] [Info] Total Bins 27301
+1619.5s 1488 [LightGBM] [Info] Number of data points in the train set: 37333, number of used features: 125
+1619.5s 1489 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102831 -> initscore=-2.166154
+1619.5s 1490 [LightGBM] [Info] Start training from score -2.166154
+1626.5s 1491 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1626.5s 1492 [LightGBM] [Warning] feature_fraction is set=0.8, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8
+1626.5s 1493 [LightGBM] [Warning] bagging_fraction is set=0.7, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7
+1626.5s 1494 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1626.5s 1495 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
+1631.9s 1496 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1631.9s 1497 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1631.9s 1498 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1631.9s 1499 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1632.5s 1500 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1632.5s 1501 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1632.5s 1502 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1632.5s 1503 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1632.5s 1504 [LightGBM] [Info] Number of positive: 5759, number of negative: 50240
+1632.5s 1505 [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.053097 seconds.
+1632.5s 1506 You can set `force_col_wise=true` to remove the overhead.
+1632.5s 1507 [LightGBM] [Info] Total Bins 27360
+1632.5s 1508 [LightGBM] [Info] Number of data points in the train set: 55999, number of used features: 125
+1632.5s 1509 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.102841 -> initscore=-2.166048
+1632.5s 1510 [LightGBM] [Info] Start training from score -2.166048
+1641.8s 1511 Best Accuracy:  0.9369631785114549
+1641.8s 1512 Best hyperparameters:  {'lgb__num_leaves': 50, 'lgb__n_estimators': 200, 'lgb__max_depth': -1, 'lgb__learning_rate': 0.1, 'lgb__feature_fraction': 0.9, 'lgb__bagging_fraction': 0.8}
+1643.3s 1513 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1643.3s 1514 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1643.3s 1515 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1643.3s 1516 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1644.0s 1517 Confusion Matrix:
+1644.0s 1518 [[48627  1613]
+1644.0s 1519 [    7  5752]]
+1644.0s 1520 Accuracy Score:  0.97
+1644.0s 1521 Precision Score:  0.78
+1644.0s 1522 Recall Score:  1.0
+1644.0s 1523 ROC AUC Score:  0.98
+1644.0s 1524 F1 Score:  0.88
+1644.4s 1525 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1644.4s 1526 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1644.4s 1527 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1644.4s 1528 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1644.9s 1529 Confusion Matrix:
+1644.9s 1530 [[11992   635]
+1644.9s 1531 [  295  1078]]
+1644.9s 1532 Accuracy Score:  0.93
+1644.9s 1533 Precision Score:  0.63
+1644.9s 1534 Recall Score:  0.79
+1644.9s 1535 ROC AUC Score:  0.87
+1644.9s 1536 F1 Score:  0.7
+1648.0s 1537 (30000, 125)
+1649.2s 1538 [LightGBM] [Warning] min_data_in_leaf is set=20, min_child_samples=20 will be ignored. Current value: min_data_in_leaf=20
+1649.2s 1539 [LightGBM] [Warning] feature_fraction is set=0.9, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9
+1649.2s 1540 [LightGBM] [Warning] bagging_fraction is set=0.8, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8
+1649.2s 1541 [LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+1656.4s 1542 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+1657.1s 1543 [NbConvertApp] Writing 6008975 bytes to __notebook__.ipynb
+1658.8s 1544 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1660.2s 1545 [NbConvertApp] Support files will be in __results___files/
+1660.2s 1546 [NbConvertApp] Making directory __results___files
+1660.2s 1547 [NbConvertApp] Making directory __results___files
+1660.2s 1548 [NbConvertApp] Making directory __results___files
+1660.2s 1549 [NbConvertApp] Making directory __results___files
+1660.2s 1550 [NbConvertApp] Making directory __results___files
+1660.2s 1551 [NbConvertApp] Making directory __results___files
+1660.2s 1552 [NbConvertApp] Making directory __results___files
+1660.2s 1553 [NbConvertApp] Making directory __results___files
+1660.2s 1554 [NbConvertApp] Making directory __results___files
+1660.2s 1555 [NbConvertApp] Making directory __results___files
+1660.2s 1556 [NbConvertApp] Making directory __results___files
+1660.2s 1557 [NbConvertApp] Making directory __results___files
+1660.2s 1558 [NbConvertApp] Making directory __results___files
+1660.2s 1559 [NbConvertApp] Making directory __results___files
+1660.2s 1560 [NbConvertApp] Making directory __results___files
+1660.2s 1561 [NbConvertApp] Making directory __results___files
+1660.2s 1562 [NbConvertApp] Making directory __results___files
+1660.2s 1563 [NbConvertApp] Making directory __results___files
+1660.2s 1564 [NbConvertApp] Making directory __results___files
+1660.2s 1565 [NbConvertApp] Making directory __results___files
+1660.2s 1566 [NbConvertApp] Making directory __results___files
+1660.2s 1567 [NbConvertApp] Making directory __results___files
+1660.2s 1568 [NbConvertApp] Making directory __results___files
+1660.2s 1569 [NbConvertApp] Making directory __results___files
+1660.2s 1570 [NbConvertApp] Writing 960294 bytes to __results__.html
